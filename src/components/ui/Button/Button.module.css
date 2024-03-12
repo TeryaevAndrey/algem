@@ -31,7 +31,7 @@
 }
 
 .button.primary {
-    @apply bg-primary;
+    @apply bg-primary text-base-content-100;
 }
 
 .button.secondary {

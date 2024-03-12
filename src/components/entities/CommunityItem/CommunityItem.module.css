@@ -1,0 +1,23 @@
+.circle {
+    @apply flex items-center justify-center w-10 h-10 rounded-full;
+}
+
+.circle.purple {
+    @apply bg-[#ddccf3];
+}
+
+.circle.green {
+    @apply bg-[#cceaf3];
+}
+
+.circle.blue {
+    @apply bg-[#CCDCF3];
+}
+
+.circle.orange {
+    @apply bg-[#F8E1C0];
+}
+
+.circle svg {
+    @apply w-6 h-6;
+}

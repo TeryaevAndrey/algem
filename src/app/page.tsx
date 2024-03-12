@@ -4,6 +4,7 @@ import {
   AspectItem,
   Aspects,
   Banner,
+  CommunityList,
   Discoveries,
   Header,
   Partners,
@@ -81,6 +82,18 @@ export default function Home() {
           classNameTitle="text-white"
         >
           <Aspects />
+        </SectionWrapper>
+
+        <SectionWrapper
+          title={
+            <>
+              Commited to the all <br />
+              security aspects
+            </>
+          }
+          classNameTitle="text-white"
+        >
+          <CommunityList />
         </SectionWrapper>
       </main>
     </>

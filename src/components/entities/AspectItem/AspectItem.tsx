@@ -1,5 +1,5 @@
-import { ArrRight } from "../icons";
-import { Button } from "../ui";
+import { ArrRight } from "../../icons";
+import { Button } from "../../ui";
 
 export const AspectItem = () => {
   return (
