@@ -1,0 +1,9 @@
+.wrapper {
+    background-image: url("/images/discoveries-bg.jpg");
+    @apply bg-repeat bg-cover bg-left lg:bg-center min-h-[480px] lg:min-h-screen rounded-2xl flex justify-center items-center;
+}
+
+.wrapper h2 {
+    mix-blend-mode: difference;
+    @apply text-4xl lg:text-[100px] lg:leading-[104px] font-medium text-center;
+}

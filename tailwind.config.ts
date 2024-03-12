@@ -15,7 +15,11 @@ const config: Config = {
       },
 
       colors: {
+        "base-100": "#F8F8F8",
+
         "base-content-100": "#020202",
+        "base-content-200": "#46464B",
+        "base-content-300": "#75767C",
         "base-content-primary": "#453AC4",
         primary: "#29FFB2",
         secondary: "#160C4A",
