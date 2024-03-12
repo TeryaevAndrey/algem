@@ -9,3 +9,7 @@ export * from "./AnimationBlock/AnimationBlock";
 export * from "./Partners/Partners";
 export * from "./SectionWrapper/SectionWrapper";
 export * from "./Discoveries/Discoveries";
+export * from "./Advantages/Advantages";
+export * from "./Aspects/Aspects";
+export * from "./AspectItem/AspectItem";
+export * from "./Aspects/Aspects";

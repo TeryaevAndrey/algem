@@ -5,3 +5,9 @@
 * {
   @apply text-white leading-none;
 }
+
+.aspects-section {
+  @apply bg-purple-2 bg-no-repeat bg-cover lg:!py-[180px];
+
+  background-image: url("/images/aspects-bg.png");
+}

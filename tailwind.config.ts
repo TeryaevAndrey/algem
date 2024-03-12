@@ -25,6 +25,9 @@ const config: Config = {
         secondary: "#160C4A",
 
         "gray-1": "#E5E8EF",
+
+        "purple-1": "#453AC4",
+        "purple-2": "#160C4A",
       },
     },
   },

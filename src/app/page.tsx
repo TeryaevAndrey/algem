@@ -1,12 +1,14 @@
 import {
+  Advantages,
   AnimationBlock,
+  AspectItem,
+  Aspects,
   Banner,
   Discoveries,
   Header,
   Partners,
   SectionWrapper,
 } from "@/components";
-import Image from "next/image";
 
 export default function Home() {
   return (
@@ -65,6 +67,21 @@ export default function Home() {
         </SectionWrapper>
 
         <Discoveries />
+
+        <Advantages />
+
+        <SectionWrapper
+          className="aspects-section"
+          title={
+            <>
+              Commited to the all <br />
+              security aspects
+            </>
+          }
+          classNameTitle="text-white"
+        >
+          <Aspects />
+        </SectionWrapper>
       </main>
     </>
   );
