@@ -2,15 +2,17 @@
 
 import { MobMenu } from "@/components";
 import { Button } from "@/components/ui";
-import { useState } from "react";
+import { PropsWithClassName } from "@/types";
+import { FC, useState } from "react";
+import cn from "clsx";
 
-export const Burger = () => {
+export const Burger: FC<PropsWithClassName> = ({ className }) => {
   const [isOpen, setOpen] = useState(false);
 
   const toggleMenu = () => setOpen((prev) => !prev);
 
   return (
-    <div className="relative">
+    <div className={cn("relative", className)}>
       {!isOpen ? (
         <button
           className="w-10 h-10 flex justify-center items-center"

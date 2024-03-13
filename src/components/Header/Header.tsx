@@ -12,9 +12,13 @@ export const Header = () => {
       <Menu />
 
       <div className="flex items-center gap-2">
-        <Button title="Launch App" size="small" />
+        <Button
+          className="lg:min-h-[56px] lg:!px-8 lg:!py-4"
+          title="Launch App"
+          size="small"
+        />
 
-        <Burger />
+        <Burger className="lg:hidden" />
       </div>
     </div>
   );

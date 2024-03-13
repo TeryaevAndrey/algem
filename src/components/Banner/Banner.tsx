@@ -17,7 +17,7 @@ export const Banner: FC<PropsWithClassName<Props>> = ({
     <div className={cn(styles.wrapper, className)}>
       <div className={styles.bg}>
         {children}
-        <div className="flex flex-col mt-auto pb-6 px-4 lg:px-[180px]">
+        <div className="flex flex-col mt-auto pb-6 px-4 lg:px-[50px] xl:px-[180px]">
           <h1 className="text-4xl lg:text-[100px] lg:leading-[104px] font-medium leading-10 text-white w-full max-w-[290px] sm:max-w-full lg:max-w-[800px]">
             Liquidity for your staking and farming assets
           </h1>
@@ -41,7 +41,7 @@ export const Banner: FC<PropsWithClassName<Props>> = ({
       </div>
 
       <div className={styles.bottomBlock}>
-        <div className="px-4 lg:px-[180px] flex flex-col gap-5 lg:flex-row lg:justify-between lg:items-center">
+        <div className="px-4 lg:px-[50px] xl:px-[180px] flex flex-col gap-5 lg:flex-row lg:justify-between lg:items-center">
           <p>Check out our new version and roadmap for 2024</p>
 
           <Button title="View Roadmap" type="secondary" size="big" />
