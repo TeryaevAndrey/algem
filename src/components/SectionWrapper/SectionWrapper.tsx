@@ -20,7 +20,7 @@ export const SectionWrapper: FC<PropsWithClassName<Props>> = ({
     >
       <h2
         className={cn(
-          "text-[32px] leading-[36px] lg:text-[64px] lg:leading-[70px] text-base-content-100 [&>span]:text-base-content-300",
+          "text-[32px] leading-[36px] lg:text-[64px] lg:leading-[70px] text-base-content-100 [&>span]:text-base-content-300 font-semibold",
           classNameTitle
         )}
       >
