@@ -25,7 +25,7 @@ export const MobMenu: FC<PropsWithClassName> = ({ className }) => {
       </Link>
       <Link
         className="w-full h-8 rounded-lg bg-gray-1 py-1.5 px-3 text-sm font-medium text-base-content-100"
-        href="#"
+        href="https://docs.algem.io/"
       >
         Docs
       </Link>

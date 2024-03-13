@@ -8,8 +8,8 @@ export const Menu: FC<PropsWithClassName> = ({ className }) => {
     <div className={cn("flex items-center gap-8 text-base font-medium text-white", className)}>
       <Link href="/">Features</Link>
       <Link href="/">FAQ</Link>
-      <Link href="/">Docs</Link>
-      <Link href="/">Blog</Link>
+      <Link href="https://docs.algem.io/">Docs</Link>
+      <Link href="https://blog.algem.io/">Blog</Link>
     </div>
   );
 };

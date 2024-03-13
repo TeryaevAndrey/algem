@@ -64,7 +64,7 @@ export const Footer = () => {
         <div className="flex flex-col gap-2 lg:gap-3 text-base font-normal">
           <h6 className="mb-2 font-medium">Resources</h6>
 
-          <Link href="#">Blog</Link>
+          <Link href="https://blog.algem.io/">Blog</Link>
           <Link href="#">Docs</Link>
           <Link href="#">Brand assets</Link>
           <Link href="#">Audits</Link>
@@ -110,11 +110,11 @@ export const Footer = () => {
 
         <p className="text-xs">
           This site is protected by reCAPTCHA. {"Google's"}{" "}
-          <Link className="underline" href="#">
+          <Link className="underline" href="https://www.algem.io/privacy-policy">
             Privacy Policy
           </Link>{" "}
           and{" "}
-          <Link className="underline" href="#">
+          <Link className="underline" href="https://www.algem.io/terms-of-use">
             Terms of Service
           </Link>{" "}
           apply.
