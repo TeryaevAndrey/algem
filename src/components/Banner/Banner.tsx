@@ -27,6 +27,7 @@ export const Banner: FC<PropsWithClassName<Props>> = ({
 
           <div className="lg:flex lg:justify-between lg:items-center mt-5 lg:mt-10">
             <Button
+              className="lg:!text-lg lg:min-w-[232px] lg:min-h-[60px]"
               type="standart"
               title="Participate now"
               icon={<ArrRight />}
@@ -41,7 +42,7 @@ export const Banner: FC<PropsWithClassName<Props>> = ({
       </div>
 
       <div className={styles.bottomBlock}>
-        <div className="px-4 lg:px-[50px] xl:px-[180px] flex flex-col gap-5 lg:flex-row lg:justify-between lg:items-center">
+        <div className="flex flex-col gap-5 lg:flex-row lg:justify-between lg:items-center">
           <p>Check out our new version and roadmap for 2024</p>
 
           <Button title="View Roadmap" type="secondary" size="big" />

@@ -88,7 +88,7 @@ export const Footer = () => {
         </div>
       </div>
 
-      <div className="flex flex-col gap-3 lg:gap-4 text-base lg:basis-[calc(20%-32px)] lg:ml-auto xl:min-w-[360px]">
+      <div className="flex flex-col gap-3 lg:gap-4 text-base lg:basis-[calc(20%-32px)] flex-grow xl:min-w-[360px] 2xl:xl:max-w-[360px] 2xl:ml-auto">
         <h5 className="mb-1 lg:mb-2 font-medium">Stay up to date with Algem</h5>
 
         <p>We value your inbox: no spam, only important news, and insights.</p>

@@ -2,7 +2,6 @@ import {
   About,
   Advantages,
   AnimationBlock,
-  AspectItem,
   Aspects,
   Banner,
   CommunityList,

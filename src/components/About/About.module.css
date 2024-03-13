@@ -1,5 +1,5 @@
 .wrapper {
-    background-image: url("/images/about-bg.png");
+    background-image: url("/images/about-bg.svg");
 
     @apply bg-no-repeat bg-cover bg-center py-[120px] lg:py-[280px] px-4 lg:px-[50px] xl:px-[180px] text-[32px] leading-[36px] lg:text-[64px] lg:leading-[70px];
 }
