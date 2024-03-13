@@ -1,4 +1,5 @@
 import {
+  About,
   Advantages,
   AnimationBlock,
   AspectItem,
@@ -6,6 +7,7 @@ import {
   Banner,
   CommunityList,
   Discoveries,
+  Footer,
   Header,
   Partners,
   SectionWrapper,
@@ -19,6 +21,8 @@ export default function Home() {
       </Banner>
 
       <main className="flex flex-col min-h-screen w-full">
+        <About />
+
         <div className="flex flex-col gap-12 lg:gap-0 py-6 lg:py-[120px]">
           <AnimationBlock
             title="Supply your tokens to the pools on the partner DEXs"
@@ -87,15 +91,16 @@ export default function Home() {
         <SectionWrapper
           title={
             <>
-              Commited to the all <br />
-              security aspects
+              Join <span>our community</span>
             </>
           }
-          classNameTitle="text-white"
+          classNameTitle="[&>span]:text-base-content-primary"
         >
           <CommunityList />
         </SectionWrapper>
       </main>
+
+      <Footer />
     </>
   );
 }

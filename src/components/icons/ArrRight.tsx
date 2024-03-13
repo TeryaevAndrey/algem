@@ -10,7 +10,7 @@ export const ArrRight: FC<PropsWithClassName<PropsWithSizes>> = ({className, wid
       viewBox="0 0 24 24"
       fill="none"
     >
-      <g clip-path="url(#clip0_10311_1084)">
+      <g clipPath="url(#clip0_10311_1084)">
         <path
           d="M13.6885 6.5L18.4998 12L13.6885 17.5"
           stroke="#020202"

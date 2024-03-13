@@ -14,3 +14,5 @@ export * from "./Aspects/Aspects";
 export * from "./entities/AspectItem/AspectItem";
 export * from "./Aspects/Aspects";
 export * from "./CommunityList/CommunityList";
+export * from "./Footer/Footer";
+export * from "./About/About";

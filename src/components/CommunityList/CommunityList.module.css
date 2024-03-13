@@ -1,0 +1,10 @@
+@media(min-width: 1024px) {
+    .item {
+        flex-basis: calc(70% - 6px);
+    }
+
+    .item:nth-child(2),
+    .item:nth-child(3) {
+        flex-basis: calc(30% - 6px);
+    }
+}

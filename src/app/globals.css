@@ -11,3 +11,9 @@
 
   background-image: url("/images/aspects-bg.png");
 }
+
+a {
+  color: inherit;
+  font-size: inherit;
+  font-weight: inherit;
+}
