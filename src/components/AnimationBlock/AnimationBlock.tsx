@@ -8,6 +8,7 @@ type Props = {
   suptitle: string;
   img: string;
   reverse?: boolean;
+  btn?: JSX.Element;
 };
 
 export const AnimationBlock: FC<PropsWithClassName<Props>> = ({
@@ -16,6 +17,7 @@ export const AnimationBlock: FC<PropsWithClassName<Props>> = ({
   suptitle,
   img,
   reverse = false,
+  btn,
 }) => {
   return (
     <div
@@ -25,26 +27,31 @@ export const AnimationBlock: FC<PropsWithClassName<Props>> = ({
       )}
     >
       <div
-        className={cn("flex flex-col justify-center items-center", {
-          "order-1": !reverse,
-          "order-2": reverse,
+        className={cn("flex flex-col justify-center items-start lg:items-center", {
+          "lg:order-1": !reverse,
+          "lg:order-2": reverse,
         })}
       >
-        <div className="flex flex-col gap-3 lg:gap-10 lg:justify-center lg:max-w-[640px]">
+        <div className={cn("flex flex-col gap-3 lg:gap-10 lg:justify-center lg:max-w-[640px]", {
+          'lg:pl-[50px] xl:pl-0': !reverse,
+          'lg:pr-[50px] xl:pr-0': reverse
+        })}>
           <p className="text-base text-base-content-primary font-medium lg:text-xl lg:leading-[30px]">
-            The Liquid Farming
+            {suptitle}
           </p>
           <h2 className="text-[28px] leading-[34px] lg:text-[56px] lg:leading-[64px] font-medium text-base-content-100 w-full">
-            Supply your tokens to the pools on the partner DEXs
+            {title}
           </h2>
+
+          {btn}
         </div>
       </div>
       <Image
         className={cn(
           "w-full lg:w-auto object-cover h-full rounded-xl lg:rounded-3xl",
           {
-            "order-2": !reverse,
-            "order-1": reverse,
+            "lg:order-2": !reverse,
+            "lg:order-1": reverse,
           }
         )}
         src={img}
