@@ -25,7 +25,7 @@ export const PartnerItem: FC<PropsWithClassName<Props>> = ({
       />
 
       <div className="flex flex-col gap-3 px-4 pt-5 pb-6">
-        <h3 className="text-2xl lg:text-[28px] lg:leading-[36px] font-medium text-base-content-100">
+        <h3 className="text-2xl lg:text-[28px] lg:leading-[36px] font-semibold text-base-content-100">
           {title}
         </h3>
         <p className="text-sm text-base-content-200">{text}</p>

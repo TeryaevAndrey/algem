@@ -18,7 +18,7 @@ export const Banner: FC<PropsWithClassName<Props>> = ({
       <div className={styles.bg}>
         {children}
         <div className="flex flex-col mt-auto pb-6 px-4 lg:px-[50px] xl:px-[180px] lg:pb-[100px]">
-          <h1 className="text-4xl lg:text-[100px] lg:leading-[104px] font-medium leading-10 text-white w-full max-w-[290px] sm:max-w-full lg:max-w-[800px]">
+          <h1 className="text-4xl lg:text-[100px] lg:leading-[104px] font-semibold leading-10 text-white w-full max-w-[270px] sm:max-w-full lg:max-w-[800px]">
             Liquidity for your staking and farming assets
           </h1>
           <p className="mt-3 lg:mt-5 text-base lg:text-xl leading-6">

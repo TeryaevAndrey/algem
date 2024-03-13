@@ -24,7 +24,7 @@ export const CommunityItem: FC<PropsWithClassName<Props>> = ({
       )}
       href={href}
     >
-      <p className="text-2xl font-medium text-base-content-100">{title}</p>
+      <p className="text-2xl xl:text-[32px] font-medium text-base-content-100" style={{fontFamily: 'Inter Tight, sans-serif',}}>{title}</p>
 
       <div
         className={cn(styles.circle, {

@@ -49,7 +49,7 @@ export default function Home() {
           />
 
           <AnimationBlock
-            title="Stake ASTR"
+            title="Stake ASTR "
             suptitle="The Liquid Farming"
             img="/images/animation-block-4.jpg"
             reverse={true}

@@ -5,5 +5,5 @@
 
 .bg h2 {
     mix-blend-mode: difference;
-    @apply text-4xl lg:text-[100px] lg:leading-[104px] font-medium text-center;
+    @apply text-4xl lg:text-[100px] lg:leading-[104px] font-semibold text-center;
 }

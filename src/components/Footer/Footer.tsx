@@ -62,7 +62,7 @@ export const Footer = () => {
 
       <div className="grid grid-cols-2 lg:grid-cols-3 gap-6 lg:gap-6 lg:basis-[calc(45%-32px)]">
         <div className="flex flex-col gap-2 lg:gap-3 text-base font-normal">
-          <h6 className="mb-2 font-medium">Resources</h6>
+          <h6 className="mb-2 font-semibold">Resources</h6>
 
           <Link href="https://blog.algem.io/">Blog</Link>
           <Link href="#">Docs</Link>
@@ -89,7 +89,7 @@ export const Footer = () => {
       </div>
 
       <div className="flex flex-col gap-3 lg:gap-4 text-base lg:basis-[calc(20%-32px)] flex-grow xl:min-w-[360px] 2xl:xl:max-w-[360px] 2xl:ml-auto">
-        <h5 className="mb-1 lg:mb-2 font-medium">Stay up to date with Algem</h5>
+        <h5 className="mb-1 lg:mb-2 font-semibold">Stay up to date with Algem</h5>
 
         <p>We value your inbox: no spam, only important news, and insights.</p>
 

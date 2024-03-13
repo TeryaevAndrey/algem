@@ -4,7 +4,7 @@ import { Burger } from "./ui";
 
 export const Header = () => {
   return (
-    <div className="flex items-center justify-between gap-4 px-4 py-5 max-w-[1560px] w-full mx-auto">
+    <div className="flex items-center justify-between gap-4 px-4 py-5 lg:px-[50px] xl:px-[180px] w-full mx-auto">
       <Logo />
 
       <Menu className="hidden lg:flex" />

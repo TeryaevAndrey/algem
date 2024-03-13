@@ -6,8 +6,8 @@ import cn from "clsx";
 export const About: FC<PropsWithClassName> = ({ className }) => {
   return (
     <section className={cn(styles.wrapper, className)}>
-      <h2 className="text-base-content-100 font-medium">Algem</h2>
-      <p className="text-base-content-300 w-full max-w-full lg:max-w-[905px]">
+      <h2 className="text-base-content-100 font-semibold">Algem</h2>
+      <p className="text-base-content-300 w-full max-w-full lg:max-w-[905px] font-semibold">
         Transforming Finance, Redefining Freedom.
       </p>
     </section>

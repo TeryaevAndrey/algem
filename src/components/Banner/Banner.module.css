@@ -3,8 +3,8 @@
 }
 
 .bg {
-    background-image: url("/images/banner-mob.jpg");
-    @apply bg-no-repeat bg-cover bg-right min-h-[75vh] lg:h-screen rounded-b-3xl z-20 flex flex-col;
+    background-image: url("/images/banner.jpg");
+    @apply bg-no-repeat bg-cover bg-center min-h-[75vh] lg:h-screen rounded-b-3xl z-20 flex flex-col;
 }
 
 .footer {
@@ -25,16 +25,9 @@
 
 .bottomBlock {
     background: linear-gradient(180deg, #29ffb2 0%, #1ceef9 100%);
-    @apply rounded-b-3xl pt-[calc(32px+22px)] pb-10 px-4 lg:px-[50px] xl:px-[180px] flex flex-col gap-5 -mt-[22px] z-10 text-2xl font-medium;
+    @apply rounded-b-3xl pt-[calc(32px+22px)] pb-10 px-4 lg:px-[50px] xl:px-[180px] flex flex-col gap-5 -mt-[22px] z-10 text-2xl font-semibold;
 }
 
 .bottomBlock p {
     @apply text-base-content-100;
-}
-
-@media(min-width: 1024px) {
-    .bg {
-        background-image: url("/images/banner.jpg");
-        @apply bg-center;
-    }
 }
