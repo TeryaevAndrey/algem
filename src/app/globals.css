@@ -14,6 +14,10 @@
   background-image: url("/images/aspects-bg.png");
 }
 
+body {
+  overflow-x: hidden;
+}
+
 a {
   color: inherit;
   font-size: inherit;
