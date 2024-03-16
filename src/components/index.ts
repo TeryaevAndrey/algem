@@ -16,3 +16,4 @@ export * from "./Aspects/Aspects";
 export * from "./CommunityList/CommunityList";
 export * from "./Footer/Footer";
 export * from "./About/About";
+export * from "./AnimationBlocks/AnimationBlocks";

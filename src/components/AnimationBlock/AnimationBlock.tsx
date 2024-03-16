@@ -1,7 +1,10 @@
+"use client";
+
 import { PropsWithClassName } from "@/types";
 import Image from "next/image";
 import { FC } from "react";
 import cn from "clsx";
+import { motion } from "framer-motion";
 
 type Props = {
   title: string;
@@ -20,7 +23,7 @@ export const AnimationBlock: FC<PropsWithClassName<Props>> = ({
   btn,
 }) => {
   return (
-    <div
+    <motion.div
       className={cn(
         "grid grid-cols-1 lg:grid-cols-2 gap-8 lg:gap-0 px-4 lg:px-0 lg:h-screen",
         className
@@ -68,6 +71,6 @@ export const AnimationBlock: FC<PropsWithClassName<Props>> = ({
         height={0}
         sizes="100vw"
       />
-    </div>
+    </motion.div>
   );
 };
