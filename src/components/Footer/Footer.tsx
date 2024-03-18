@@ -64,27 +64,24 @@ export const Footer = () => {
         <div className="flex flex-col gap-2 lg:gap-3 text-base font-normal">
           <h6 className="mb-2 font-semibold">Resources</h6>
 
-          <Link href="https://blog.algem.io/">Blog</Link>
-          <Link href="#">Docs</Link>
-          <Link href="#">Brand assets</Link>
-          <Link href="#">Audits</Link>
+          <Link href="https://blog.algem.io">Blog</Link>
+          <Link href="https://docs.algem.io">Docs</Link>
+          <Link href="https://github.com/AlgemDeFi/media-kit">Brand assets</Link>
+          <Link href="https://github.com/AlgemDeFi/audits">Audits</Link>
         </div>
         <div className="flex flex-col gap-2 lg:gap-3">
           <h6 className="mb-2">Products</h6>
 
           <Link href="#">Liquid Farming</Link>
-          <Link href="#">Liquid Staking</Link>
+          <Link href="https://app.algem.io/liquid-staking">Liquid Staking</Link>
           <Link href="#">Crowdloan</Link>
         </div>
         <div className="flex flex-col gap-2 lg:gap-3">
           <h6 className="mb-2">About</h6>
 
-          <Link href="#">Contact</Link>
-          <Link href="#">Careers</Link>
-          <Link href="#">Privacy</Link>
-          <Link href="#">Cookie Policy</Link>
-          <Link href="#">Terms</Link>
-          <Link href="#">Security</Link>
+          <Link href="https://www.algem.io/privacy-policy">Privacy</Link>
+          <Link href="https://www.algem.io/terms-of-use">Terms</Link>
+          <Link href="https://docs.google.com/forms/d/e/1FAIpQLSf9LxCHcSEM52CGPqCXTBY53k2zo0M5TmpOHFCbp5Na7HcDCg/viewform?usp=sf_link">Security</Link>
         </div>
       </div>
 
@@ -125,7 +122,7 @@ export const Footer = () => {
         <p className="text-sm text-[#7B7C7F]">© 2024 Algem</p>
 
         <div className="items-center gap-4 hidden lg:flex">
-          <Link href="#">
+          <Link href="https://discord.gg/Y7fQNdevV2">
             <svg width="20" height="16" viewBox="0 0 20 16" fill="none">
               <path
                 d="M16.9309 1.64162C15.6562 1.05674 14.2892 0.625801 12.86 0.378965C12.8339 0.3742 12.8079 0.386114 12.7945 0.409903C12.6187 0.722598 12.424 1.13049 12.2876 1.45111C10.7504 1.22096 9.22101 1.22096 7.7153 1.45111C7.5789 1.12338 7.3771 0.722598 7.2005 0.409903C7.1871 0.386895 7.16108 0.374981 7.13507 0.378965C5.70663 0.624981 4.33968 1.05592 3.06413 1.64162C3.05308 1.64639 3.04362 1.65432 3.03733 1.66463C0.444522 5.53826 -0.265791 9.3167 0.0826466 13.0483C0.0842091 13.0665 0.0944826 13.084 0.108662 13.0951C1.81933 14.3513 3.47644 15.114 5.10273 15.6195C5.12874 15.6275 5.15632 15.618 5.17288 15.5965C5.55757 15.0712 5.9005 14.5172 6.19452 13.9347C6.21187 13.9006 6.1953 13.8601 6.15983 13.8466C5.61589 13.6403 5.09796 13.3887 4.59972 13.103C4.5603 13.08 4.55714 13.0237 4.59343 12.9967C4.69827 12.9181 4.80315 12.8363 4.90327 12.7538C4.9214 12.7387 4.94663 12.7356 4.96792 12.7451C8.24105 14.2395 11.7846 14.2395 15.0191 12.7451C15.0404 12.7347 15.0656 12.7379 15.0845 12.753C15.1847 12.8355 15.2895 12.9181 15.3951 12.9966C15.4314 13.0236 15.429 13.08 15.3896 13.103C14.8914 13.3942 14.3735 13.6403 13.8287 13.8458C13.7933 13.8593 13.7775 13.9006 13.7949 13.9347C14.0952 14.5164 14.4382 15.0703 14.8157 15.5957C14.8315 15.6179 14.8599 15.6275 14.8859 15.6195C16.5201 15.114 18.1772 14.3513 19.8878 13.095C19.9028 13.0839 19.9123 13.0672 19.9139 13.049C20.3309 8.7349 19.2154 4.98744 16.9568 1.66537C16.9514 1.65432 16.9419 1.64639 16.9309 1.64162ZM6.68339 10.7761C5.69796 10.7761 4.88597 9.87143 4.88597 8.76033C4.88597 7.64924 5.68218 6.74455 6.68339 6.74455C7.69241 6.74455 8.49655 7.65721 8.48077 8.76033C8.48077 9.87143 7.68452 10.7761 6.68339 10.7761ZM13.329 10.7761C12.3436 10.7761 11.5316 9.87143 11.5316 8.76033C11.5316 7.64924 12.3278 6.74455 13.329 6.74455C14.338 6.74455 15.1421 7.65721 15.1264 8.76033C15.1264 9.87143 14.3381 10.7761 13.329 10.7761Z"
@@ -133,7 +130,7 @@ export const Footer = () => {
               />
             </svg>
           </Link>
-          <Link href="#">
+          <Link href="https://twitter.com/Algem_io">
             <svg width="20" height="20" viewBox="0 0 20 20" fill="none">
               <g clipPath="url(#clip0_10332_2079)">
                 <path
@@ -148,7 +145,7 @@ export const Footer = () => {
               </defs>
             </svg>
           </Link>
-          <Link href="#">
+          <Link href="https://t.me/Algem_io">
             <svg width="20" height="20" viewBox="0 0 20 20" fill="none">
               <g clipPath="url(#clip0_10332_2081)">
                 <path

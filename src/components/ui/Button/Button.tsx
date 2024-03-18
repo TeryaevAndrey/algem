@@ -9,6 +9,7 @@ type Props = {
   title?: string;
   icon?: JSX.Element;
   onClick?: MouseEventHandler;
+  disabled?: boolean;
 };
 
 export const Button: FC<PropsWithClassName<Props>> = ({
@@ -17,7 +18,8 @@ export const Button: FC<PropsWithClassName<Props>> = ({
   size = "normal",
   title,
   icon,
-  onClick
+  onClick,
+  disabled = false,
 }) => {
   return (
     <button
@@ -25,8 +27,11 @@ export const Button: FC<PropsWithClassName<Props>> = ({
         [styles[type]]: type,
         [styles[size]]: size,
         [styles.onlyIcon]: !title && icon,
+
+        [styles.disabled]: disabled
       })}
       onClick={onClick}
+      disabled={disabled}
     >
       {title}
       {icon}

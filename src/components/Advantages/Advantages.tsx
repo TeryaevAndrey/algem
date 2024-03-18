@@ -1,5 +1,6 @@
-'use client';
+"use client";
 
+import Link from "next/link";
 import { ArrRight } from "../icons";
 import { Button } from "../ui";
 import { motion } from "framer-motion";
@@ -13,6 +14,7 @@ export const Advantages = () => {
           transition={{ ease: "easeInOut", duration: 0.3 }}
           initial={{ opacity: 0, translateY: -15 }}
           whileInView={{ opacity: 1, translateY: 0 }}
+          viewport={{ once: true }}
         >
           More freedom and flexibility <br />
           <span className="text-base-content-300">
@@ -25,6 +27,7 @@ export const Advantages = () => {
           transition={{ ease: "linear", duration: 0.3, delay: 0.3 }}
           initial={{ opacity: 0, translateY: -15 }}
           whileInView={{ opacity: 1, translateY: 0 }}
+          viewport={{ once: true }}
         >
           Our mission is to provide financial empowerment by unlocking new
           horizons of freedom and possibility in the decentralized financial
@@ -37,14 +40,17 @@ export const Advantages = () => {
           transition={{ ease: "linear", duration: 0.3, delay: 0.6 }}
           initial={{ opacity: 0, translateY: -15 }}
           whileInView={{ opacity: 1, translateY: 0 }}
+          viewport={{ once: true }}
         >
-          <Button
-            className="mt-8 lg:mt-16 mx-auto"
-            type="primary"
-            size="big"
-            title="Participate now"
-            icon={<ArrRight />}
-          />
+          <Link href="https://app.algem.io/liquid-staking">
+            <Button
+              className="mt-8 lg:mt-16 mx-auto"
+              type="primary"
+              size="big"
+              title="Participate now"
+              icon={<ArrRight />}
+            />
+          </Link>
         </motion.div>
       </div>
     </div>

@@ -7,6 +7,7 @@ import styles from "./Banner.module.css";
 import { Button } from "@/components/ui";
 import { ArrRight } from "@/components/icons";
 import { motion } from "framer-motion";
+import Link from "next/link";
 
 type Props = {
   children: ReactNode;
@@ -39,15 +40,19 @@ export const Banner: FC<PropsWithClassName<Props>> = ({
           </motion.p>
 
           <div className="lg:flex lg:justify-between lg:items-center mt-5 lg:mt-10">
-            <motion.div transition={{ ease: "linear", duration: 0.3, delay: 0.6 }}
-            initial={{ opacity: 0, translateY: -15 }}
-            animate={{ opacity: 1, translateY: 0 }}>
-              <Button
-                className="lg:!text-lg lg:min-w-[232px] lg:min-h-[60px]"
-                type="standart"
-                title="Participate now"
-                icon={<ArrRight />}
-              />
+            <motion.div
+              transition={{ ease: "linear", duration: 0.3, delay: 0.6 }}
+              initial={{ opacity: 0, translateY: -15 }}
+              animate={{ opacity: 1, translateY: 0 }}
+            >
+              <Link href="https://app.algem.io/liquid-staking">
+                <Button
+                  className="lg:!text-lg lg:min-w-[232px] lg:min-h-[60px]"
+                  type="standart"
+                  title="Participate now"
+                  icon={<ArrRight />}
+                />
+              </Link>
             </motion.div>
 
             <div className={styles.footer}>
@@ -60,9 +65,10 @@ export const Banner: FC<PropsWithClassName<Props>> = ({
 
       <div className={styles.bottomBlock}>
         <div className="flex flex-col gap-5 lg:flex-row lg:justify-between lg:items-center">
-          <p>Check out our new version and roadmap for 2024</p>
-
-          <Button title="View Roadmap" type="secondary" size="big" />
+          <p>Check out our new vision and roadmap for 2024</p>
+          <Link href="/roadmap.pdf">
+            <Button title="View Roadmap" type="secondary" size="big" />
+          </Link>
         </div>
       </div>
     </div>

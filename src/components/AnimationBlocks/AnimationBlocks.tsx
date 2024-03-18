@@ -12,6 +12,7 @@ import {
 } from "..";
 import { Button } from "../ui";
 import { useScroll, useTransform, motion } from "framer-motion";
+import Link from "next/link";
 
 export const AnimationBlocks = () => {
   const ref = useRef(null);
@@ -127,6 +128,7 @@ export const AnimationBlocks = () => {
                     title="Coming soon"
                     size="big"
                     type="secondary"
+                    disabled={true}
                   />
                 }
               />
@@ -141,7 +143,7 @@ export const AnimationBlocks = () => {
             >
               <AnimationBlock
                 title="Stake ASTR "
-                suptitle="The Liquid Farming"
+                suptitle="The Liquid Staking"
                 img="/images/animation-block-4.jpg"
                 reverse={true}
               />
@@ -173,12 +175,14 @@ export const AnimationBlocks = () => {
                 img="/images/animation-block-6.jpg"
                 reverse={true}
                 btn={
-                  <Button
-                    className="!bg-base-content-primary !h-[56px] mt-3 lg:mt-0"
-                    title="Stake now"
-                    size="big"
-                    type="secondary"
-                  />
+                  <Link href="https://app.algem.io/liquid-staking">
+                    <Button
+                      className="!bg-base-content-primary !h-[56px] mt-3 lg:mt-0"
+                      title="Stake now"
+                      size="big"
+                      type="secondary"
+                    />
+                  </Link>
                 }
               />
             </motion.div>
@@ -212,13 +216,14 @@ export const AnimationBlocks = () => {
                 title="Coming soon"
                 size="big"
                 type="secondary"
+                disabled={true}
               />
             }
           />
 
           <AnimationBlock
             title="Stake ASTR "
-            suptitle="The Liquid Farming"
+            suptitle="The Liquid Staking"
             img="/images/animation-block-4.jpg"
             reverse={true}
           />
@@ -236,12 +241,14 @@ export const AnimationBlocks = () => {
             img="/images/animation-block-6.jpg"
             reverse={true}
             btn={
-              <Button
-                className="!bg-base-content-primary !h-[56px] mt-3 lg:mt-0"
-                title="Stake now"
-                size="big"
-                type="secondary"
-              />
+              <Link href="https://app.algem.io/liquid-staking">
+                <Button
+                  className="!bg-base-content-primary !h-[56px] mt-3 lg:mt-0"
+                  title="Stake now"
+                  size="big"
+                  type="secondary"
+                />
+              </Link>
             }
           />
         </div>

@@ -1,6 +1,7 @@
 import { Logo, Menu } from "@/components";
 import { Button } from "@/components/ui";
 import { Burger } from "./ui";
+import Link from "next/link";
 
 export const Header = () => {
   return (
@@ -10,11 +11,13 @@ export const Header = () => {
       <Menu className="hidden lg:flex" />
 
       <div className="flex items-center gap-2">
-        <Button
-          className="lg:min-h-[56px] lg:!px-8 lg:!py-4"
-          title="Launch App"
-          size="small"
-        />
+        <Link href="https://app.algem.io/liquid-staking">
+          <Button
+            className="lg:min-h-[56px] lg:!px-8 lg:!py-4"
+            title="Launch App"
+            size="small"
+          />
+        </Link>
 
         <Burger className="lg:hidden" />
       </div>
