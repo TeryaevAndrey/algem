@@ -72,27 +72,73 @@ export const Footer: FC<PropsWithClassName> = ({ className }) => {
         <div className="flex flex-col gap-2 lg:gap-3 text-base font-normal">
           <h6 className="mb-2 font-semibold">Resources</h6>
 
-          <Link className="relative after:content-[''] after:absolute after:h-[2px] after:left-0 after:w-0 after:-bottom-2 after:ease-linear after:duration-100 after:bg-white ease-linear duration-100 w-max hover:after:w-full" href="https://blog.algem.io">Blog</Link>
-          <Link className="relative after:content-[''] after:absolute after:h-[2px] after:left-0 after:w-0 after:-bottom-2 after:ease-linear after:duration-100 after:bg-white ease-linear duration-100 w-max hover:after:w-full" href="https://docs.algem.io">Docs</Link>
-          <Link className="relative after:content-[''] after:absolute after:h-[2px] after:left-0 after:w-0 after:-bottom-2 after:ease-linear after:duration-100 after:bg-white ease-linear duration-100 w-max hover:after:w-full" href="https://github.com/AlgemDeFi/media-kit">
+          <Link
+            className="relative after:content-[''] after:absolute after:h-[2px] after:left-0 after:w-0 after:-bottom-2 after:ease-linear after:duration-100 after:bg-white ease-linear duration-100 w-max hover:after:w-full"
+            href="https://blog.algem.io"
+          >
+            Blog
+          </Link>
+          <Link
+            className="relative after:content-[''] after:absolute after:h-[2px] after:left-0 after:w-0 after:-bottom-2 after:ease-linear after:duration-100 after:bg-white ease-linear duration-100 w-max hover:after:w-full"
+            href="https://docs.algem.io"
+          >
+            Docs
+          </Link>
+          <Link
+            className="relative after:content-[''] after:absolute after:h-[2px] after:left-0 after:w-0 after:-bottom-2 after:ease-linear after:duration-100 after:bg-white ease-linear duration-100 w-max hover:after:w-full"
+            href="https://github.com/AlgemDeFi/media-kit"
+          >
             Brand assets
           </Link>
-          <Link className="relative after:content-[''] after:absolute after:h-[2px] after:left-0 after:w-0 after:-bottom-2 after:ease-linear after:duration-100 after:bg-white ease-linear duration-100 w-max hover:after:w-full" href="https://github.com/AlgemDeFi/audits">Audits</Link>
+          <Link
+            className="relative after:content-[''] after:absolute after:h-[2px] after:left-0 after:w-0 after:-bottom-2 after:ease-linear after:duration-100 after:bg-white ease-linear duration-100 w-max hover:after:w-full"
+            href="https://github.com/AlgemDeFi/audits"
+          >
+            Audits
+          </Link>
         </div>
         <div className="flex flex-col gap-2 lg:gap-3">
           <h6 className="mb-2">Products</h6>
 
-          <Link className="relative after:content-[''] after:absolute after:h-[2px] after:left-0 after:w-0 after:-bottom-2 after:ease-linear after:duration-100 after:bg-white ease-linear duration-100 w-max hover:after:w-full" href="#">Liquid Farming</Link>
-          <Link className="relative after:content-[''] after:absolute after:h-[2px] after:left-0 after:w-0 after:-bottom-2 after:ease-linear after:duration-100 after:bg-white ease-linear duration-100 w-max hover:after:w-full" href="https://app.algem.io/liquid-staking">Liquid Staking</Link>
-          <Link className="relative after:content-[''] after:absolute after:h-[2px] after:left-0 after:w-0 after:-bottom-2 after:ease-linear after:duration-100 after:bg-white ease-linear duration-100 w-max hover:after:w-full" href="#">Crowdloan</Link>
+          <Link
+            className="relative after:content-[''] after:absolute after:h-[2px] after:left-0 after:w-0 after:-bottom-2 after:ease-linear after:duration-100 after:bg-white ease-linear duration-100 w-max hover:after:w-full"
+            href="#"
+          >
+            Liquid Farming
+          </Link>
+          <Link
+            className="relative after:content-[''] after:absolute after:h-[2px] after:left-0 after:w-0 after:-bottom-2 after:ease-linear after:duration-100 after:bg-white ease-linear duration-100 w-max hover:after:w-full"
+            href="https://app.algem.io/liquid-staking"
+          >
+            Liquid Staking
+          </Link>
+          <Link
+            className="relative after:content-[''] after:absolute after:h-[2px] after:left-0 after:w-0 after:-bottom-2 after:ease-linear after:duration-100 after:bg-white ease-linear duration-100 w-max hover:after:w-full"
+            href="#"
+          >
+            Crowdloan
+          </Link>
         </div>
         <div className="flex flex-col gap-2 lg:gap-3">
           <h6 className="mb-2">About</h6>
 
-          <Link className="relative after:content-[''] after:absolute after:h-[2px] after:left-0 after:w-0 after:-bottom-2 after:ease-linear after:duration-100 after:bg-white ease-linear duration-100 w-max hover:after:w-full" href="https://www.algem.io/privacy-policy">Privacy</Link>
-          <Link className="relative after:content-[''] after:absolute after:h-[2px] after:left-0 after:w-0 after:-bottom-2 after:ease-linear after:duration-100 after:bg-white ease-linear duration-100 w-max hover:after:w-full" href="https://www.algem.io/terms-of-use">Terms</Link>
-          <Link className="relative after:content-[''] after:absolute after:h-[2px] after:left-0 after:w-0 after:-bottom-2 after:ease-linear after:duration-100 after:bg-white ease-linear duration-100 w-max hover:after:w-full" href="https://docs.google.com/forms/d/e/1FAIpQLSf9LxCHcSEM52CGPqCXTBY53k2zo0M5TmpOHFCbp5Na7HcDCg/viewform?usp=sf_link">
-            Security
+          <Link
+            className="relative after:content-[''] after:absolute after:h-[2px] after:left-0 after:w-0 after:-bottom-2 after:ease-linear after:duration-100 after:bg-white ease-linear duration-100 w-max hover:after:w-full"
+            href="https://www.algem.io/privacy-policy"
+          >
+            Privacy policy
+          </Link>
+          <Link
+            className="relative after:content-[''] after:absolute after:h-[2px] after:left-0 after:w-0 after:-bottom-2 after:ease-linear after:duration-100 after:bg-white ease-linear duration-100 w-max hover:after:w-full"
+            href="https://www.algem.io/terms-of-use"
+          >
+            Terms of use
+          </Link>
+          <Link
+            className="relative after:content-[''] after:absolute after:h-[2px] after:left-0 after:w-0 after:-bottom-2 after:ease-linear after:duration-100 after:bg-white ease-linear duration-100 w-max hover:after:w-full"
+            href="https://docs.google.com/forms/d/e/1FAIpQLSf9LxCHcSEM52CGPqCXTBY53k2zo0M5TmpOHFCbp5Na7HcDCg/viewform?usp=sf_link"
+          >
+            Feedback and suggestions
           </Link>
         </div>
       </div>
