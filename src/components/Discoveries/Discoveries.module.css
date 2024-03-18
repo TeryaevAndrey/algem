@@ -1,6 +1,6 @@
 .bg {
     background-image: url("/images/discoveries-bg.jpg");
-    @apply bg-repeat bg-cover bg-left lg:bg-center min-h-[480px] lg:min-h-screen rounded-2xl flex justify-center items-center;
+    @apply bg-repeat bg-cover bg-left lg:bg-center rounded-2xl flex justify-center items-center sticky top-0 min-h-screen;
 }
 
 .bg h2 {

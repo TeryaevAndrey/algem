@@ -19,16 +19,36 @@ export const Aspects: FC<PropsWithClassName> = ({ className }) => {
           slidesOffsetBefore={16}
         >
           <SwiperSlide>
-            <AspectItem />
+            <AspectItem
+              title="The Tesseract Academy"
+              text="ALGM Tokenomic Audit"
+              href="/adv-1.pdf"
+              img="/images/aspects-1.png"
+            />
           </SwiperSlide>
           <SwiperSlide>
-            <AspectItem />
+            <AspectItem
+              title="Hashlock"
+              text="ALGM Staking"
+              href="/adv-2.pdf"
+              img="/images/aspects-2.svg"
+            />
           </SwiperSlide>
           <SwiperSlide>
-            <AspectItem />
+            <AspectItem
+              title="Hashlock"
+              text="Liquid Staking V1.5"
+              href="/adv-3.pdf"
+              img="/images/aspects-2.svg"
+            />
           </SwiperSlide>
           <SwiperSlide>
-            <AspectItem />
+            <AspectItem
+              title="Hashlock"
+              text="Lending Adapter"
+              href="/adv-4.pdf"
+              img="/images/aspects-2.svg"
+            />
           </SwiperSlide>
         </Swiper>
       </div>
@@ -41,7 +61,12 @@ export const Aspects: FC<PropsWithClassName> = ({ className }) => {
             whileInView={{ opacity: 1, translateY: 0 }}
             viewport={{ once: true }}
           >
-            <AspectItem />
+            <AspectItem
+              title="The Tesseract Academy"
+              text="ALGM Tokenomic Audit"
+              href="/adv-1.pdf"
+              img="/images/aspects-1.png"
+            />
           </motion.div>
           <motion.div
             transition={{ ease: "backOut", duration: 0.6, delay: 0.1 }}
@@ -49,7 +74,11 @@ export const Aspects: FC<PropsWithClassName> = ({ className }) => {
             whileInView={{ opacity: 1, translateY: 0 }}
             viewport={{ once: true }}
           >
-            <AspectItem />
+            <AspectItem
+              text="ALGM Staking"
+              href="/adv-2.pdf"
+              img="/images/aspects-2.svg"
+            />
           </motion.div>
           <motion.div
             transition={{ ease: "backOut", duration: 0.6, delay: 0.2 }}
@@ -57,7 +86,11 @@ export const Aspects: FC<PropsWithClassName> = ({ className }) => {
             whileInView={{ opacity: 1, translateY: 0 }}
             viewport={{ once: true }}
           >
-            <AspectItem />
+            <AspectItem
+              text="Liquid Staking V1.5"
+              href="/adv-3.pdf"
+              img="/images/aspects-2.svg"
+            />
           </motion.div>
           <motion.div
             transition={{ ease: "backOut", duration: 0.6, delay: 0.3 }}
@@ -65,7 +98,11 @@ export const Aspects: FC<PropsWithClassName> = ({ className }) => {
             whileInView={{ opacity: 1, translateY: 0 }}
             viewport={{ once: true }}
           >
-            <AspectItem />
+            <AspectItem
+              text="Lending Adapter"
+              href="/adv-4.pdf"
+              img="/images/aspects-2.svg"
+            />
           </motion.div>
         </div>
       </div>
