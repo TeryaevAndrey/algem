@@ -2,10 +2,18 @@ import Image from "next/image";
 import Link from "next/link";
 import { Button } from "../ui";
 import { ArrRight } from "../icons";
+import { FC } from "react";
+import { PropsWithClassName } from "@/types";
+import cn from "clsx";
 
-export const Footer = () => {
+export const Footer: FC<PropsWithClassName> = ({ className }) => {
   return (
-    <div className="flex flex-col lg:flex-row px-4 pt-12 pb-8 rounded-t-2xl bg-base-content-100 text-white gap-8 lg:flex-wrap w-full lg:items-start lg:px-[50px] xl:px-[180px] lg:pt-16 lg:pb-12 lg:gap-16">
+    <div
+      className={cn(
+        "flex flex-col lg:flex-row px-4 pt-12 pb-8 rounded-t-2xl bg-base-content-100 text-white gap-8 lg:flex-wrap w-full lg:items-start lg:px-[50px] xl:px-[180px] lg:pt-16 lg:pb-12 lg:gap-16",
+        className
+      )}
+    >
       <div className="flex items-center justify-between gap-4 lg:basis-[calc(10%-32px)]">
         <Link className="w-[115px] h-[36px]" href="/">
           <Image
@@ -66,7 +74,9 @@ export const Footer = () => {
 
           <Link href="https://blog.algem.io">Blog</Link>
           <Link href="https://docs.algem.io">Docs</Link>
-          <Link href="https://github.com/AlgemDeFi/media-kit">Brand assets</Link>
+          <Link href="https://github.com/AlgemDeFi/media-kit">
+            Brand assets
+          </Link>
           <Link href="https://github.com/AlgemDeFi/audits">Audits</Link>
         </div>
         <div className="flex flex-col gap-2 lg:gap-3">
@@ -81,12 +91,16 @@ export const Footer = () => {
 
           <Link href="https://www.algem.io/privacy-policy">Privacy</Link>
           <Link href="https://www.algem.io/terms-of-use">Terms</Link>
-          <Link href="https://docs.google.com/forms/d/e/1FAIpQLSf9LxCHcSEM52CGPqCXTBY53k2zo0M5TmpOHFCbp5Na7HcDCg/viewform?usp=sf_link">Security</Link>
+          <Link href="https://docs.google.com/forms/d/e/1FAIpQLSf9LxCHcSEM52CGPqCXTBY53k2zo0M5TmpOHFCbp5Na7HcDCg/viewform?usp=sf_link">
+            Security
+          </Link>
         </div>
       </div>
 
       <div className="flex flex-col gap-3 lg:gap-4 text-base lg:basis-[calc(20%-32px)] flex-grow xl:min-w-[360px] 2xl:xl:max-w-[360px] 2xl:ml-auto">
-        <h5 className="mb-1 lg:mb-2 font-semibold">Stay up to date with Algem</h5>
+        <h5 className="mb-1 lg:mb-2 font-semibold">
+          Stay up to date with Algem
+        </h5>
 
         <p>We value your inbox: no spam, only important news, and insights.</p>
 
@@ -107,7 +121,10 @@ export const Footer = () => {
 
         <p className="text-xs">
           This site is protected by reCAPTCHA. {"Google's"}{" "}
-          <Link className="underline" href="https://www.algem.io/privacy-policy">
+          <Link
+            className="underline"
+            href="https://www.algem.io/privacy-policy"
+          >
             Privacy Policy
           </Link>{" "}
           and{" "}
