@@ -17,7 +17,10 @@ export const Discoveries = () => {
   const opacity = useTransform(scrollYProgress, [0, 1], [0.3, 1]);
 
   const springScale = useSpring(scale, { stiffness: 100, damping: 30 });
-  
+
+  const textScale = useTransform(scrollYProgress, [0.2, 1], [0, 1]);
+  const springTextScale = useSpring(textScale, { stiffness: 120, damping: 40 });
+
   return (
     <motion.div ref={ref} className="px-4 pt-16 lg:pt-20 bg-white h-[250vh]">
       <motion.div
@@ -28,9 +31,12 @@ export const Discoveries = () => {
           scale: springScale,
         }}
       >
-        <h2 className="lg:max-w-[1000px] px-8">
+        <motion.h2
+          className="lg:max-w-[1000px] px-8"
+          style={{ scale: springTextScale }}
+        >
           Discoveries beyond the horizon
-        </h2>
+        </motion.h2>
       </motion.div>
     </motion.div>
   );
