@@ -28,9 +28,6 @@ export const AnimationBlock: FC<PropsWithClassName<Props>> = ({
         "grid grid-cols-1 lg:grid-cols-2 gap-8 lg:gap-0 px-4 lg:px-0 lg:h-screen",
         className
       )}
-      initial={{ opacity: 0 }}
-      whileInView={{ opacity: 1 }}
-      transition={{ duration: 1, ease: "linear" }}
     >
       <div
         className={cn(
