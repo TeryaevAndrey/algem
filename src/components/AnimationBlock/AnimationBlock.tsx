@@ -57,20 +57,23 @@ export const AnimationBlock: FC<PropsWithClassName<Props>> = ({
           {btn}
         </div>
       </div>
-      <Image
+
+      <picture
         className={cn(
-          "w-full lg:w-auto object-cover h-full rounded-xl lg:rounded-3xl",
+          "w-full lg:w-auto object-cover h-full rounded-xl lg:rounded-3xl overflow-hidden",
           {
             "lg:order-2 lg:rounded-r-none": !reverse,
             "lg:order-1 lg:rounded-l-none": reverse,
           }
         )}
-        src={img}
-        alt="img"
-        width={0}
-        height={0}
-        sizes="100vw"
-      />
+      >
+        <source className="w-full h-full object-cover" srcSet={img + ".webp"} />
+        <img
+          className="w-full h-full object-cover"
+          src={img + ".jpg"}
+          alt="img"
+        />
+      </picture>
     </motion.div>
   );
 };

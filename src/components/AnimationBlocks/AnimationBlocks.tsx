@@ -56,7 +56,7 @@ export const AnimationBlocks = () => {
               <AnimationBlock
                 title="Supply your tokens to the pools on the partner DEXs"
                 suptitle="The Liquid Farming"
-                img="/images/animation-block-1.jpg"
+                img="/images/animation-block-1"
               />
             </motion.div>
 
@@ -68,7 +68,7 @@ export const AnimationBlocks = () => {
                 className="snap-start"
                 title="Get liquid lASTR tokens as the equivalent of your position"
                 suptitle="The Liquid Farming"
-                img="/images/animation-block-2.jpg"
+                img="/images/animation-block-2"
               />
             </motion.div>
 
@@ -79,7 +79,7 @@ export const AnimationBlocks = () => {
               <AnimationBlock
                 title="Earn triple rewards in the form of the ALGM incentives, DEXs and l-tokens farming rewards"
                 suptitle="The Liquid Farming"
-                img="/images/animation-block-3.jpg"
+                img="/images/animation-block-3"
                 btn={
                   <Button
                     className="!bg-base-content-primary !h-[56px] mt-3 lg:mt-0"
@@ -111,7 +111,7 @@ export const AnimationBlocks = () => {
               <AnimationBlock
                 title="Stake ASTR "
                 suptitle="THE LIQUID STAKING"
-                img="/images/animation-block-4.jpg"
+                img="/images/animation-block-4"
                 reverse={true}
               />
             </motion.div>
@@ -123,7 +123,7 @@ export const AnimationBlocks = () => {
               <AnimationBlock
                 title="Get liquid nASTR tokens and start to receive staking rewards"
                 suptitle="THE LIQUID STAKING"
-                img="/images/animation-block-5.jpg"
+                img="/images/animation-block-5"
                 reverse={true}
               />
             </motion.div>
@@ -135,7 +135,7 @@ export const AnimationBlocks = () => {
               <AnimationBlock
                 title="Use your nASTR tokens across DeFi to increase your profits"
                 suptitle="THE LIQUID STAKING"
-                img="/images/animation-block-6.jpg"
+                img="/images/animation-block-6"
                 reverse={true}
                 btn={
                   <Button
@@ -155,20 +155,20 @@ export const AnimationBlocks = () => {
         <AnimationBlock
           title="Supply your tokens to the pools on the partner DEXs"
           suptitle="The Liquid Farming"
-          img="/images/animation-block-1.jpg"
+          img="/images/animation-block-1"
         />
 
         <AnimationBlock
           className="snap-start"
           title="Get liquid lASTR tokens as the equivalent of your position"
           suptitle="The Liquid Farming"
-          img="/images/animation-block-2.jpg"
+          img="/images/animation-block-2"
         />
 
         <AnimationBlock
           title="Earn triple rewards in the form of the ALGM incentives, DEXs and l-tokens farming rewards"
           suptitle="The Liquid Farming"
-          img="/images/animation-block-3.jpg"
+          img="/images/animation-block-3"
           btn={
             <Button
               className="!bg-base-content-primary !h-[56px] mt-3 lg:mt-0"
@@ -182,21 +182,21 @@ export const AnimationBlocks = () => {
         <AnimationBlock
           title="Stake ASTR "
           suptitle="The Liquid Farming"
-          img="/images/animation-block-4.jpg"
+          img="/images/animation-block-4"
           reverse={true}
         />
 
         <AnimationBlock
           title="Get liquid nASTR tokens and start to receive staking rewards"
           suptitle="The Liquid Farming"
-          img="/images/animation-block-5.jpg"
+          img="/images/animation-block-5"
           reverse={true}
         />
 
         <AnimationBlock
           title="Use your nASTR tokens across DeFi to increase your profits"
           suptitle="The Liquid Farming"
-          img="/images/animation-block-6.jpg"
+          img="/images/animation-block-6"
           reverse={true}
           btn={
             <Button
