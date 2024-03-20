@@ -110,7 +110,7 @@ export const AnimationBlocks = () => {
             >
               <AnimationBlock
                 title="Stake ASTR "
-                suptitle="The Liquid Farming"
+                suptitle="THE LIQUID STAKING"
                 img="/images/animation-block-4.jpg"
                 reverse={true}
               />
@@ -122,7 +122,7 @@ export const AnimationBlocks = () => {
             >
               <AnimationBlock
                 title="Get liquid nASTR tokens and start to receive staking rewards"
-                suptitle="The Liquid Farming"
+                suptitle="THE LIQUID STAKING"
                 img="/images/animation-block-5.jpg"
                 reverse={true}
               />
@@ -134,7 +134,7 @@ export const AnimationBlocks = () => {
             >
               <AnimationBlock
                 title="Use your nASTR tokens across DeFi to increase your profits"
-                suptitle="The Liquid Farming"
+                suptitle="THE LIQUID STAKING"
                 img="/images/animation-block-6.jpg"
                 reverse={true}
                 btn={

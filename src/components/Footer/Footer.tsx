@@ -117,7 +117,7 @@ export const Footer: FC<PropsWithClassName> = ({ className }) => {
             className="relative after:content-[''] after:absolute after:h-[2px] after:left-0 after:w-0 after:-bottom-2 after:ease-linear after:duration-100 after:bg-white ease-linear duration-100 w-max hover:after:w-full"
             href="#"
           >
-            Crowdloan
+            Liquid Crowdloan
           </Link>
         </div>
         <div className="flex flex-col gap-2 lg:gap-3">

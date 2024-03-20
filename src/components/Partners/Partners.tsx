@@ -64,9 +64,7 @@ export const Partners = () => {
         <PartnerItem
           img="/images/partner-5.svg"
           title="Starlay "
-          text="A Leading Polkadot Ecosystem Protocol for Secure and Innovative Lending
-          Astar Degens - Astar Degens is a DAO developed to provide support to on the Astar ecosystem
-          "
+          text="A Leading Polkadot Ecosystem Protocol for Secure and Innovative Lending"
         />
       </motion.div>
 
