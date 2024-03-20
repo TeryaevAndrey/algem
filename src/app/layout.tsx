@@ -5,8 +5,7 @@ import "./globals.css";
 const IBM = IBM_Plex_Sans({ weight: "400", subsets: ["cyrillic"] });
 
 export const metadata: Metadata = {
-  title: "Algem",
-  description: "Liquidity for your assets",
+  title: "Algem - Liquidity for your assets",
 };
 
 export default function RootLayout({

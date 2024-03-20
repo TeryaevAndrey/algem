@@ -95,7 +95,7 @@ export const AnimationBlocks = () => {
       </div>
 
       <div className="hidden lg:block">
-        <div className="bg-white h-screen"></div>
+        <div className="bg-white h-[50vh]"></div>
       </div>
 
       <div>

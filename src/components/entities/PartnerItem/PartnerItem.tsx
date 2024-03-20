@@ -14,7 +14,7 @@ export const PartnerItem: FC<PropsWithClassName<Props>> = ({
   text,
 }) => {
   return (
-    <div className="w-full rounded-2xl overflow-hidden bg-white shadow-sm">
+    <div className="w-full rounded-2xl overflow-hidden bg-white shadow-sm h-full">
       <Image
         className="w-full object-cover rounded-t-2xl"
         src={img}

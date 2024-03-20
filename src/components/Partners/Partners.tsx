@@ -77,7 +77,7 @@ export const Partners = () => {
         viewport={{ once: true }}
       >
         <PartnerItem
-          img="/images/partner-6.svg"
+          img="/images/partner-9.svg"
           title="Astar Degens "
           text="Astar Degens is a DAO developed to provide support to on the Astar ecosystem
           "
