@@ -4,6 +4,8 @@ import cn from "clsx";
 import styles from "./Button.module.css";
 
 type Props = {
+  btnType?: "button" | "submit";
+
   type?: "standart" | "primary" | "secondary";
   size?: "small" | "normal" | "big";
   title?: string;
@@ -14,6 +16,7 @@ type Props = {
 
 export const Button: FC<PropsWithClassName<Props>> = ({
   className,
+  btnType = "submit",
   type = "primary",
   size = "normal",
   title,
@@ -28,10 +31,11 @@ export const Button: FC<PropsWithClassName<Props>> = ({
         [styles[size]]: size,
         [styles.onlyIcon]: !title && icon,
 
-        [styles.disabled]: disabled
+        [styles.disabled]: disabled,
       })}
       onClick={onClick}
       disabled={disabled}
+      type={btnType}
     >
       {title}
       {icon}

@@ -5,6 +5,7 @@ import { ArrRight } from "../icons";
 import { FC } from "react";
 import { PropsWithClassName } from "@/types";
 import cn from "clsx";
+import { SubscribeForm } from "..";
 
 export const Footer: FC<PropsWithClassName> = ({ className }) => {
   return (
@@ -150,20 +151,7 @@ export const Footer: FC<PropsWithClassName> = ({ className }) => {
 
         <p>We value your inbox: no spam, only important news, and insights.</p>
 
-        <div className="flex items-center gap-2">
-          <input
-            className="py-2 px-3.5 min-h-[34px] rounded-xl bg-transparent border border-white/20 text-sm text-white placeholder:text-white/80 w-full"
-            type="email"
-            placeholder="Email"
-          />
-
-          <Button
-            className="w-[104px] !gap-2 !text-xs !rounded-xl !bg-[#454A52] !text-white [&>svg>g>path]:stroke-white"
-            title="Subscribe"
-            icon={<ArrRight />}
-            size="small"
-          />
-        </div>
+        <SubscribeForm />
 
         <p className="text-xs">
           This site is protected by reCAPTCHA. {"Google's"}{" "}
