@@ -55,7 +55,7 @@ export const AnimationBlocks = () => {
             >
               <AnimationBlock
                 title="Supply your tokens to the pools on the partner DEXs"
-                suptitle="The Liquid Farming"
+                suptitle="The Liquid Farming Product"
                 img="/images/animation-block-1"
               />
             </motion.div>
@@ -67,7 +67,7 @@ export const AnimationBlocks = () => {
               <AnimationBlock
                 className="snap-start"
                 title="Get liquid lASTR tokens as the equivalent of your position"
-                suptitle="The Liquid Farming"
+                suptitle="The Liquid Farming Product"
                 img="/images/animation-block-2"
               />
             </motion.div>
@@ -78,7 +78,7 @@ export const AnimationBlocks = () => {
             >
               <AnimationBlock
                 title="Earn triple rewards in the form of the ALGM incentives, DEXs and l-tokens farming rewards"
-                suptitle="The Liquid Farming"
+                suptitle="The Liquid Farming Product"
                 img="/images/animation-block-3"
                 btn={
                   <Button
@@ -110,7 +110,7 @@ export const AnimationBlocks = () => {
             >
               <AnimationBlock
                 title="Stake ASTR "
-                suptitle="THE LIQUID STAKING"
+                suptitle="THE LIQUID STAKING Product"
                 img="/images/animation-block-4"
                 reverse={true}
               />
@@ -122,7 +122,7 @@ export const AnimationBlocks = () => {
             >
               <AnimationBlock
                 title="Get liquid nASTR tokens and start to receive staking rewards"
-                suptitle="THE LIQUID STAKING"
+                suptitle="THE LIQUID STAKING Product"
                 img="/images/animation-block-5"
                 reverse={true}
               />
@@ -134,7 +134,7 @@ export const AnimationBlocks = () => {
             >
               <AnimationBlock
                 title="Use your nASTR tokens across DeFi to increase your profits"
-                suptitle="THE LIQUID STAKING"
+                suptitle="THE LIQUID STAKING Product"
                 img="/images/animation-block-6"
                 reverse={true}
                 btn={
@@ -154,20 +154,20 @@ export const AnimationBlocks = () => {
       <div className="lg:hidden flex flex-col gap-12 lg:gap-0">
         <AnimationBlock
           title="Supply your tokens to the pools on the partner DEXs"
-          suptitle="The Liquid Farming"
+          suptitle="The Liquid Farming Product"
           img="/images/animation-block-1"
         />
 
         <AnimationBlock
           className="snap-start"
           title="Get liquid lASTR tokens as the equivalent of your position"
-          suptitle="The Liquid Farming"
+          suptitle="The Liquid Farming Product"
           img="/images/animation-block-2"
         />
 
         <AnimationBlock
           title="Earn triple rewards in the form of the ALGM incentives, DEXs and l-tokens farming rewards"
-          suptitle="The Liquid Farming"
+          suptitle="The Liquid Farming Product"
           img="/images/animation-block-3"
           btn={
             <Button
@@ -181,21 +181,21 @@ export const AnimationBlocks = () => {
 
         <AnimationBlock
           title="Stake ASTR "
-          suptitle="The Liquid Farming"
+          suptitle="The Liquid Farming Product"
           img="/images/animation-block-4"
           reverse={true}
         />
 
         <AnimationBlock
           title="Get liquid nASTR tokens and start to receive staking rewards"
-          suptitle="The Liquid Farming"
+          suptitle="The Liquid Farming Product"
           img="/images/animation-block-5"
           reverse={true}
         />
 
         <AnimationBlock
           title="Use your nASTR tokens across DeFi to increase your profits"
-          suptitle="The Liquid Farming"
+          suptitle="The Liquid Farming Product"
           img="/images/animation-block-6"
           reverse={true}
           btn={
