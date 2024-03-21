@@ -60,7 +60,7 @@ export const AnimationBlock: FC<PropsWithClassName<Props>> = ({
 
       <picture
         className={cn(
-          "w-full lg:w-auto object-cover h-full rounded-xl lg:rounded-3xl overflow-hidden",
+          "w-full object-cover h-full rounded-xl lg:rounded-3xl overflow-hidden",
           {
             "lg:order-2 lg:rounded-r-none": !reverse,
             "lg:order-1 lg:rounded-l-none": reverse,

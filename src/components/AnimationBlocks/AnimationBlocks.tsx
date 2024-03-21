@@ -50,7 +50,7 @@ export const AnimationBlocks = () => {
         >
           <div className="h-screen sticky top-0">
             <motion.div
-              className="ease-linear duration-500"
+              className="ease-linear duration-500 w-full"
               style={{ opacity: opacity1 }}
             >
               <AnimationBlock
@@ -61,7 +61,7 @@ export const AnimationBlocks = () => {
             </motion.div>
 
             <motion.div
-              className="absolute ease-out duration-500"
+              className="absolute ease-out duration-500 w-full"
               style={{ translateY: translateY2, opacity: opacity2 }}
             >
               <AnimationBlock
@@ -73,7 +73,7 @@ export const AnimationBlocks = () => {
             </motion.div>
 
             <motion.div
-              className="absolute ease-out duration-500"
+              className="absolute ease-out duration-500 w-full"
               style={{ translateY: translateY3 }}
             >
               <AnimationBlock
@@ -105,7 +105,7 @@ export const AnimationBlocks = () => {
         >
           <div className="h-screen sticky top-0">
             <motion.div
-              className="ease-out duration-500"
+              className="ease-out duration-500 w-full"
               style={{ opacity: opacity4 }}
             >
               <AnimationBlock
@@ -117,7 +117,7 @@ export const AnimationBlocks = () => {
             </motion.div>
 
             <motion.div
-              className="absolute ease-out duration-500"
+              className="absolute ease-out duration-500 w-full"
               style={{ translateY: translateY5, opacity: opacity5 }}
             >
               <AnimationBlock
@@ -129,7 +129,7 @@ export const AnimationBlocks = () => {
             </motion.div>
 
             <motion.div
-              className="absolute ease-out duration-500"
+              className="absolute ease-out duration-500 w-full"
               style={{ translateY: translateY6 }}
             >
               <AnimationBlock
