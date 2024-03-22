@@ -3,7 +3,7 @@
 }
 
 .bg {
-    background-image: url("/images/banner.jpg");
+    background-image: url("/images/banner.webp");
     @apply bg-no-repeat bg-cover bg-center min-h-[75vh] lg:h-screen rounded-b-3xl z-20 flex flex-col;
 }
 

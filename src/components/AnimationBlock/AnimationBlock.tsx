@@ -1,7 +1,6 @@
 "use client";
 
 import { PropsWithClassName } from "@/types";
-import Image from "next/image";
 import { FC } from "react";
 import cn from "clsx";
 import { motion } from "framer-motion";
@@ -67,7 +66,7 @@ export const AnimationBlock: FC<PropsWithClassName<Props>> = ({
           }
         )}
       >
-        <source className="w-full h-full object-cover" srcSet={img + ".webp"} />
+        <source className="w-full h-full object-cover" srcSet={img + ".webp"} type="image/webp" />
         <img
           className="w-full h-full object-cover"
           src={img + ".jpg"}
