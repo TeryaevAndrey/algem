@@ -101,24 +101,14 @@ export const Footer: FC<PropsWithClassName> = ({ className }) => {
         <div className="flex flex-col gap-2 lg:gap-3">
           <h6 className="mb-2">Products</h6>
 
-          <Link
-            className="relative after:content-[''] after:absolute after:h-[2px] after:left-0 after:w-0 after:-bottom-2 after:ease-linear after:duration-100 after:bg-white ease-linear duration-100 w-max hover:after:w-full"
-            href="#"
-          >
-            Liquid Farming
-          </Link>
+          <p className="w-max">Liquid Farming</p>
           <Link
             className="relative after:content-[''] after:absolute after:h-[2px] after:left-0 after:w-0 after:-bottom-2 after:ease-linear after:duration-100 after:bg-white ease-linear duration-100 w-max hover:after:w-full"
             href="https://app.algem.io/liquid-staking"
           >
             Liquid Staking
           </Link>
-          <Link
-            className="relative after:content-[''] after:absolute after:h-[2px] after:left-0 after:w-0 after:-bottom-2 after:ease-linear after:duration-100 after:bg-white ease-linear duration-100 w-max hover:after:w-full"
-            href="#"
-          >
-            Liquid Crowdloan
-          </Link>
+          <p className="w-max">Liquid Crowdloan</p>
         </div>
         <div className="flex flex-col gap-2 lg:gap-3">
           <h6 className="mb-2">About</h6>
