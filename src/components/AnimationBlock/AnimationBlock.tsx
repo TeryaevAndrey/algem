@@ -4,6 +4,7 @@ import { PropsWithClassName } from "@/types";
 import { FC } from "react";
 import cn from "clsx";
 import { motion } from "framer-motion";
+import Image from "next/image";
 
 type Props = {
   title: string;
@@ -57,7 +58,7 @@ export const AnimationBlock: FC<PropsWithClassName<Props>> = ({
         </div>
       </div>
 
-      <picture
+      <Image
         className={cn(
           "w-full object-cover h-full rounded-xl lg:rounded-3xl overflow-hidden",
           {
@@ -65,14 +66,12 @@ export const AnimationBlock: FC<PropsWithClassName<Props>> = ({
             "lg:order-1 lg:rounded-l-none": reverse,
           }
         )}
-      >
-        <source className="w-full h-full object-cover" srcSet={img + ".webp"} type="image/webp" />
-        <img
-          className="w-full h-full object-cover"
-          src={img + ".jpg"}
-          alt="img"
-        />
-      </picture>
+        src={img}
+        alt="img"
+        width={0}
+        height={0}
+        sizes="100vw"
+      />
     </motion.div>
   );
 };
