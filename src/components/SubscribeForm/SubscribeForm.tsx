@@ -5,7 +5,7 @@ export const SubscribeForm = () => {
   return (
     <form
       action="https://app.getresponse.com/add_subscriber.html"
-      accept-charset="utf-8"
+      acceptCharset="utf-8"
       method="post"
       className="flex items-center gap-2"
     >

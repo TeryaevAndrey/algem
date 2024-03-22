@@ -8,7 +8,9 @@ import { motion, useScroll, useTransform } from "framer-motion";
 export const AnimationBlocks = () => {
   const ref = useRef<HTMLDivElement>(null);
   const ref2 = useRef<HTMLDivElement>(null);
-  const { scrollYProgress } = useScroll({ target: ref });
+  const { scrollYProgress } = useScroll({
+    target: ref
+  });
   const { scrollYProgress: scrollYProgress2 } = useScroll({ target: ref2 });
 
   const opacity1 = useTransform(scrollYProgress, [0.02, 0.5], [1, 0]);
@@ -45,7 +47,7 @@ export const AnimationBlocks = () => {
     <div className="py-6 lg:py-[120px]">
       <div>
         <div
-          className="hidden lg:flex flex-col gap-12 lg:gap-0 h-[300vh] sticky top-0 "
+          className="hidden lg:flex flex-col gap-12 lg:gap-0 h-[500vh] sticky top-0"
           ref={ref}
         >
           <div className="h-screen sticky top-0">
@@ -100,7 +102,7 @@ export const AnimationBlocks = () => {
 
       <div>
         <div
-          className="hidden lg:flex flex-col gap-12 lg:gap-0 h-[300vh] sticky top-0 "
+          className="hidden lg:flex flex-col gap-12 lg:gap-0 h-[500vh] sticky top-0 "
           ref={ref2}
         >
           <div className="h-screen sticky top-0">
