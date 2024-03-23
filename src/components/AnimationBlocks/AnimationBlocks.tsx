@@ -9,7 +9,7 @@ export const AnimationBlocks = () => {
   const ref = useRef<HTMLDivElement>(null);
   const ref2 = useRef<HTMLDivElement>(null);
   const { scrollYProgress } = useScroll({
-    target: ref
+    target: ref,
   });
   const { scrollYProgress: scrollYProgress2 } = useScroll({ target: ref2 });
 
@@ -88,6 +88,7 @@ export const AnimationBlocks = () => {
                     title="Coming soon"
                     size="big"
                     type="secondary"
+                    disabled={true}
                   />
                 }
               />
@@ -145,6 +146,7 @@ export const AnimationBlocks = () => {
                     title="Stake now"
                     size="big"
                     type="secondary"
+                    href="https://app.algem.io/liquid-staking"
                   />
                 }
               />
@@ -177,6 +179,7 @@ export const AnimationBlocks = () => {
               title="Coming soon"
               size="big"
               type="secondary"
+              disabled={true}
             />
           }
         />
@@ -206,6 +209,7 @@ export const AnimationBlocks = () => {
               title="Stake now"
               size="big"
               type="secondary"
+              href="https://app.algem.io/liquid-staking"
             />
           }
         />
