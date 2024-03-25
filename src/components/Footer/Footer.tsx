@@ -144,7 +144,7 @@ export const Footer: FC<PropsWithClassName> = ({ className }) => {
         <SubscribeForm />
 
         <p className="text-xs">
-          This site is protected by reCAPTCHA. {"Google's"}{" "}
+          {"Algem's"}{" "}
           <Link
             className="underline"
             href="https://www.algem.io/privacy-policy"
